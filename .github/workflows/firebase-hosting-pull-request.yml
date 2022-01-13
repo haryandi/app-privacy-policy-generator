@@ -10,8 +10,7 @@ jobs:
     steps:
       - name: Checkout the code
         uses: actions/checkout@v2
-        
-      
+              
       - name: Install Node
         uses: actions/setup-node@v2
         with:
