@@ -41,4 +41,4 @@ jobs:
           repoToken: '${{ secrets.GITHUB_TOKEN }}'
           firebaseServiceAccount: '${{ secrets.FIREBASE_SERVICE_ACCOUNT_APP_PRIVACY_POLICY_GENERATOR }}'
           channelId: live
-          projectId: app-privacy-policy-generator
+          projectId: fake-videocall
