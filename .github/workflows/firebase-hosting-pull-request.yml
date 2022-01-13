@@ -32,6 +32,7 @@ jobs:
           chmod +x ./render.sh
           ./render.sh
 
+
       - name: Firebase Deploy to Preview Channel
         uses: FirebaseExtended/action-hosting-deploy@v0
         with:
